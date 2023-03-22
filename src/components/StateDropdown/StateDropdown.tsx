@@ -3,9 +3,9 @@
 import { usStatesList } from '@components/models/usStatesList';
 import { useState } from 'react';
 
-const FilingStatusDropdown = () => {
+const StateDropdown = () => {
   const [selectedState, setSelectedState] = useState('');
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedState(event.target.value);
   };
 
@@ -24,4 +24,4 @@ const FilingStatusDropdown = () => {
   );
 };
 
-export default FilingStatusDropdown;
+export default StateDropdown;

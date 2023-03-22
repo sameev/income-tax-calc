@@ -1,6 +1,6 @@
 import styles from '../styles/page.module.css';
-import FilingStatusDropdown from '../components/FilingStatusDropdown/FilingStatusDropdown'
-import StateDropdown from '../components/StateDropdown/StateDropdown.tsx'
+import FilingStatusDropdown from '../components/FilingStatusDropdown/FilingStatusDropdown';
+import StateDropdown from '../components/StateDropdown/StateDropdown';
 
 export default function Home() {
   return (

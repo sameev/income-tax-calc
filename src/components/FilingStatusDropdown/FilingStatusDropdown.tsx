@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const FilingStatusDropdown = () => {
   const [filingStatus, setFilingStatus] = useState('');
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setFilingStatus(event.target.value);
   };
 
