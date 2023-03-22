@@ -1,6 +1,20 @@
 {
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+},
   "extends": [
     "next/core-web-vitals",
     "prettier"
-  ]
+  ],
+  "rule": {
+    "react/react-in-jsx-scope": "off",
+    "no-unused-vars":"warn",
+    "react/prop-types": "off"
+  }
 }
