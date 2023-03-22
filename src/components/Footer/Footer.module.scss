@@ -1,0 +1,28 @@
+@use '../../styles/_mixins.scss';
+
+.footer {
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width:100%;
+  color: white;
+  background: linear-gradient(90deg, #707070 0%, #474747 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  &__left {
+    margin-right: auto;
+  }
+
+  a {
+    color: white;
+  }
+  p {
+    display: flex;
+    margin: 0;
+    @include mixins.centered;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

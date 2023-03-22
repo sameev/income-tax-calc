@@ -1,6 +1,6 @@
 'use client';
 
-import { filingStatusList } from '@components/models/filingStatusList';
+import { filingStatusList } from '@components/lib/filingStatusList';
 import { useState } from 'react';
 
 const FilingStatusDropdown = () => {

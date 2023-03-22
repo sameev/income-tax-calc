@@ -1,6 +1,6 @@
 'use client';
 
-import { usStatesList } from '@components/models/usStatesList';
+import { usStatesList } from '@components/lib/usStatesList';
 import { useState } from 'react';
 
 const StateDropdown = () => {
